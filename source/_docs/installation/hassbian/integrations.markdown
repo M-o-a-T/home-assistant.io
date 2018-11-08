@@ -54,3 +54,11 @@ To enable One Wire support add the following line to the end of `/boot/config.tx
 dtoverlay=w1-gpio
 ```
 After this follow the [One Wire Sensor component](/components/sensor.onewire/) page.
+
+### {% linkable_title One wire via owserver %}
+
+The OWFS sensor requires one or more [owserver](http://owfs.org/index.php?page=owserver) daemons, either on the same host or somewhere else on your network.
+
+Setting up the server connection(s) is described [here](/components/owfs/).
+
+Then, follow the [OWFS Sensor component](/components/sensor.owfs/) page.
